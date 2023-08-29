@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100 Days Coding Challenge</title>
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css" integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-between">
+            <div class="col-lg-4">
+                <div class="one">
+                    <img src="./img/fe468672-8ab9-4ffa-b2a9-1133e97b5ab1_vas.PNG" alt="" class="img">
+                    <h3 class="text-center vasanth mt-2">vasanth</h3>
+                    <p class="text-center dev">Web Developer</p>
+                    <!-- <p class="text-center">Web Devloper</p> -->
+                    <!-- <p class="text-center">Web Devloper</p> -->
+                    <div class="d-flex justify-content-between">
+                       <a href="https://wa.me/918667709464?text=Hey%20Vasanth%20Broooo"> <img src="./img/whatsapp.png" alt=""> </a>
+                        <a href="https://github.com/vasanthfeb/"><img src="./img/github.png" alt=""></a>
+                        <a href="#https://www.instagram.com/vxsxnxh/"><img src="./img/linkedin.png" alt=""></a>
+                        <a href="https://www.instagram.com/kerala__lover/"><img src="./img/instagram.png" alt=""></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="two">
+                    <h1 class="text-center about p-4"> 100 Days Coding Challenge</h1>
+                    
+                                    <h5 class="text-center date">29th August 2023 - 8th December 2023</h5>
+                                        <div class="countdown">
+                                            <div class="countdown-item">
+                                              <span class="countdown-number" id="days">00</span>
+                                              <span class="countdown-label">Day</span>
+                                            </div>
+                                            <div class="countdown-item">
+                                              <span class="countdown-number" id="hours">00</span>
+                                              <span class="countdown-label">Hour</span>
+                                            </div>
+                                            <div class="countdown-item">
+                                              <span class="countdown-number" id="minutes">00</span>
+                                              <span class="countdown-label">Minute</span>
+                                            </div>
+                                            <div class="countdown-item">
+                                              <span class="countdown-number" id="seconds">00</span>
+                                              <span class="countdown-label">Second</span>
+                                            </div>
+                                          </div>
+                                          <p class="text-justify full"> Hi I am vasanth, I started this 100 days coding challenge for my career & future. I started this cheellenge on 29th August 2023 - 8th December 2023, This time i want to learn HTML, CSS, JAVA SCRIPT, BOOTSTRAP, C, PYTHON, PHP, MYSQL and many more. And web devlopment and Interner of things. and I want to learn many good things. Happy Learning.</p>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js" integrity="sha512-fHY2UiQlipUq0dEabSM4s+phmn+bcxSYzXP4vAXItBvBHU7zAM/mkhCZjtBEIJexhOMzZbgFlPLuErlJF2b+0g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        const targetDate = new Date("2023-12-06T23:59:59").getTime();
+
+function updateCountdown() {
+  const now = new Date().getTime();
+  const timeLeft = targetDate - now;
+
+  const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+  document.getElementById("days").textContent = days < 10 ? "0" + days : days;
+  document.getElementById("hours").textContent = hours < 10 ? "0" + hours : hours;
+  document.getElementById("minutes").textContent = minutes < 10 ? "0" + minutes : minutes;
+  document.getElementById("seconds").textContent = seconds < 10 ? "0" + seconds : seconds;
+}
+
+updateCountdown();
+setInterval(updateCountdown, 1000);
+    </script>
+</body>
+</html>

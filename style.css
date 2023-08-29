@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,400;0,500;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital@0;1&display=swap');
+body{
+    background-color: rgb(75, 13, 132) !important;
+}.row{
+    
+    border-radius: 20px;
+    padding: 30px;
+    background-image: linear-gradient(to right, #badff1 , #1FA5ED );
+    /* background-image: linear-gradient(to left, #56a2e4, #97cecd); */
+
+}
+.full{
+    letter-spacing: 1.2px;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 20px;
+padding-bottom: 40px;
+font-family: 'Jost', sans-serif;
+white-space: 3px;
+}
+.two{
+   /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    background-color: aliceblue;
+}
+.img{
+    max-width: 200px;
+    height: auto;
+    margin: auto !important;
+    display: block;
+    
+}
+.one{
+   /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
+    border-radius: 20px;
+   background-color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 70px;
+}
+.vasanth{
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'MuseoModerno', cursive;
+    background: linear-gradient(rgb(63, 185, 255), rgb(204, 220, 227));
+    -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+.about{
+    font-family: 'Orbitron', sans-serif;
+}
+.dev{
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.d-flex{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #000 !important;
+  } */
+  
+  .countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .countdown-item {
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .countdown-number {
+    font-size: 36px;
+    color: #2CAAED;
+  }
+  
+  .countdown-label {
+    font-size: 13px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.2ch;
+  }
+  .date{
+    color:#326c93;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .container{
+    padding-top: 25px;
+  }
